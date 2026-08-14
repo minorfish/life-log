@@ -1,0 +1,34 @@
+{
+  "appId": "cli_xxxxxxxxxxxxx",
+  "appSecret": "xxxxxxxxxxxxxxxx",
+  "appToken": "bascnxxxxxxxxxxxx",
+  "tables": {
+    "diet": "tbldxxxxxxxxxxxx",
+    "dailySummary": "tblJxxxxxxxxxxxx",
+    "sleep": "tblDWxxxxxxxxxxx",
+    "exercise": "tbl4pxxxxxxxxxxx",
+    "dateIndex": "tblQxxxxxxxxxxxx",
+    "foodComp": "tblsxxxxxxxxxxxx",
+    "reading": "tblIxxxxxxxxxxxx",
+    "podcast": "tblBxxxxxxxxxxxx",
+    "documentary": "tblHxxxxxxxxxxxx",
+    "media": "tblvxxxxxxxxxxxx",
+    "time": "tblQCxxxxxxxxxxx"
+  },
+  "calendars": {
+    "sleep": "睡眠",
+    "exercise": "锻炼",
+    "health": "健康"
+  },
+  "defaults": {
+    "recorderName": "User",
+    "dailyCalorieTarget": 1350,
+    "timezone": "+08:00",
+    "enableSleepCalendarSync": false
+  },
+  "integrations": {
+    "weread": {
+      "enabled": false
+    }
+  }
+}

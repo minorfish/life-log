@@ -1,0 +1,12 @@
+node_modules/
+.env
+life-log.config.json
+life-log.config.json.bak*
+.DS_Store
+tmp/
+.workbuddy/
+scripts/bin/
+
+# personal content — not for the public repo
+docs/wechat-paid-article.md
+docs/周复盘-2026-08-03_08-09.md

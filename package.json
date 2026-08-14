@@ -1,0 +1,23 @@
+{
+  "name": "life-log",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Chat-to-Feishu life logging for diet, sleep, and exercise",
+  "scripts": {
+    "setup": "tsx scripts/setup_life_log.ts",
+    "life": "tsx scripts/life_log.ts",
+    "review": "tsx scripts/review_period.ts",
+    "query-food": "tsx scripts/query_food.ts",
+    "build:calendar-helper": "tsx scripts/utils/build_sleep_sync.ts",
+    "sync:sleep": "tsx scripts/sync_sleep_to_calendar.ts",
+    "sync:exercise": "tsx scripts/sync_exercise_to_calendar.ts",
+    "sync:baduanjin": "tsx scripts/sync_baduanjin_from_calendar.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "tsx": "^4.20.5"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
