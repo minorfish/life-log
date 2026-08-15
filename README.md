@@ -104,6 +104,7 @@ npm run review -- --start 2026-08-08 --end 2026-08-14 --format text
 
 - `.agents/skills/life-log/`（记录） + `.agents/skills/life-review/`（复盘）
 - `skills/life-log/` + `skills/life-review/`（同上，兼容路径）
+- `food-tracking/`、`sleep-tracking/` 是 WorkBuddy 兼容入口，最终仍统一调用 `life-log` CLI
 
 两份内容相同。打开这个仓库后，让 AI 按 skill 把聊天内容转成飞书记录，或生成复盘报告。
 

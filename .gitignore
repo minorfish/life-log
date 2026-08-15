@@ -6,6 +6,7 @@ life-log.config.json.bak*
 tmp/
 .workbuddy/
 scripts/bin/
+assets/
 
 # personal content — not for the public repo
 docs/wechat-paid-article.md
